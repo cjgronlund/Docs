@@ -1,14 +1,134 @@
-### YamlMime:YamlDocument
-documentType: LandingData
+### YamlMime:Landing
+
 title: ML.NET Documentation
+summary: Learn how to use ML.NET, an open-source framework, to build machine learning solutions and integrate them into applications. Tutorials, code examples, and more.
+
 metadata:
-  document_id: na
   title: ML.NET Documentation - Tutorials, API Reference
-  meta.description: Learn how to use ML.NET, an open-source and cross-platform machine learning framework you can use to build custom machine learning solutions and integrate them into .NET applications. Incorporate AI into your apps using the .NET skills you already have and without leaving .NET.
+  description: Learn how to use ML.NET, an open-source and cross-platform machine learning framework for building custom machine learning solutions and integrating them into .NET applications. Tutorials, code examples, API reference, and other documentation show you how.
+  ms.prod: dotnet-ml
   ms.topic: landing-page
-  ms.date: 08/15/2019
-  ms.author: nakersha
+  ms.collection: collection
   author: natke
+  ms.author: nakersha
+  ms.date: 09/09/2019
+
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+landingContent:
+
+  # Card (optional)
+  - title: About ML.NET
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: What is ML.NET?
+            url: how-does-mldotnet-work.md
+      - linkListType: concept
+        links:
+          - text: Model Builder
+            url: automate-training-with-model-builder.md
+          - text: AutoML CLI
+            url: automate-training-with-cli.md
+
+  # Card (optional)
+  - title: Get started with the API
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Analyze website comment sentiment
+            url: /tutorials/sentiment-analysis.md
+          - text: Predict prices with regression
+            url: /tutorials/predict-prices.md
+          - text: Retrain a TensorFlow image classifier
+            url: /tutorials/image-classification.md
+          - text: Classify customer support issues
+            url: /tutorials/github-issue-classification.md
+  # Card (optional)
+  - title: Model Builder and CLI
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Predict prices - Model Builder
+            url: /tutorials/predict-prices-with-model-builder.md
+          - text: Analyze sentiment - AutoML CLI
+            url: /tutorials/mlnet-cli?tabs=windows.md
+          - text: Analyze sentiment - Model Builder & Razor Pages
+            url: /tutorials/mlnet-cli?tabs=windows.md
+
+  # Concepts card
+  - title: Machine learning concepts
+    linkLists:
+      - linkListType: concept
+        links:
+          - text: linktext1
+            url: file1.md
+          - text: linktext2
+            url: file2.md
+      - linkListType: linkListType
+        links:
+          - text: linktext1
+            url: file1.md
+          - text: linktext2
+            url: file2.md
+
+  # How-to card
+  - title: Data and model training
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Load data from various sources  
+            url: /how-to-guides/load-data-ml-net.md
+          - text: Prepare data for building a model
+            url: /how-to-guides/prepare-data-ml-net.md
+          - text: Train and evaluate a model
+            url: /how-to-guides/train-machine-learning-model-ml-net.md
+          - text: Train a model using cross-validation
+            url: /how-to-guides/train-machine-learning-model-cross-validation-ml-net.md
+
+  # How-to card
+  - title: Use models
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Load data from various sources  
+            url: /how-to-guides/load-data-ml-net.md
+          - text: Prepare data for building a model
+            url: /how-to-guides/prepare-data-ml-net.md
+          - text: Train and evaluate a model
+            url: /how-to-guides/train-machine-learning-model-ml-net.md
+          - text: Train a model using cross-validation
+            url: /how-to-guides/train-machine-learning-model-cross-validation-ml-net.md  
+
+  # How-to card
+  - title: Deploy models
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Load data from various sources  
+            url: /how-to-guides/load-data-ml-net.md
+          - text: Prepare data for building a model
+            url: /how-to-guides/prepare-data-ml-net.md
+          - text: Train and evaluate a model
+            url: /how-to-guides/train-machine-learning-model-ml-net.md
+          - text: Train a model using cross-validation
+            url: /how-to-guides/train-machine-learning-model-cross-validation-ml-net.md                    
+
+  # Reference card
+  - title: API reference
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Load data from various sources  
+            url: /how-to-guides/load-data-ml-net.md
+          - text: Prepare data for building a model
+            url: /how-to-guides/prepare-data-ml-net.md
+          - text: Train and evaluate a model
+            url: /how-to-guides/train-machine-learning-model-ml-net.md
+          - text: Train a model using cross-validation
+            url: /how-to-guides/train-machine-learning-model-cross-validation-ml-net.md
+
 abstract:
   description: Learn how to use ML.NET, an open-source and cross-platform machine learning framework for building custom machine learning solutions and integrating them into .NET applications. Tutorials, code examples, API reference, and other documentation show you how.
 sections:
