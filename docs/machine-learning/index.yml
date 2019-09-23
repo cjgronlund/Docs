@@ -5,7 +5,7 @@ summary: Learn how to use open-source ML.NET to build machine learning solutions
 
 metadata:
   title: ML.NET Documentation - Tutorials, API Reference
-  description: Learn how to use ML.NET, an open-source framework, to build machine learning solutions and integrate them into applications. Tutorials, code examples, and more.
+  description: Learn how to use open-source ML.NET to build machine learning solutions and integrate them into applications. Tutorials, code examples, and more show you how.
   ms.prod: dotnet-ml
   ms.topic: landing-page
   ms.collection: collection
